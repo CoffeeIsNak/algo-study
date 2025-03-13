@@ -8,7 +8,7 @@ def solution(brown, yellow):
     sum = (brown + 4) // 2
     pro = yellow + brown
 
-    w = sum + int((sum ** 2 - 4 * pro) ** (0.5) + 0.1)
+    w = sum + int((sum**2 - 4 * pro) ** (0.5) + 0.1)
     w //= 2
     h = sum - w
 
